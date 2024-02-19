@@ -1,0 +1,268 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(218, 220, 221);
+}
+.head {
+  margin: 0 20px;
+}
+.head #logo {
+  font-size: 30px;
+  border: 1px dashed rgb(5, 221, 120);
+  color: rgb(5, 221, 120);
+  border-radius: 40px;
+  padding: 5px 10px 5px 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-style: italic;
+}
+.head h1 {
+  display: inline;
+  margin-right: 250px;
+}
+form {
+  display: inline;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 300px;
+}
+#searchInput {
+  width: 400px;
+  background-color: rgb(218, 220, 221);
+  border: none;
+}
+#searchInput:focus {
+  border: none;
+  outline: none;
+}
+#buttonsearchInput {
+  position: absolute;
+  right: 2px;
+  top: 4px;
+  background-color: rgb(5, 221, 120);
+  width: 5px;
+  border: none;
+  padding: 15px;
+  border-radius: 200px;
+}
+#darkmood {
+  font-size: 30px;
+  cursor: pointer;
+}
+#nightmood {
+  cursor: pointer;
+  font-size: 30px;
+  display: none;
+}
+#all {
+  margin: 20px 100px;
+}
+#left {
+  width: 250px;
+  height: 600px;
+  padding-top: 130px;
+  background-color: rgb(5, 221, 120);
+  position: relative;
+  display: inline-block;
+}
+#left i {
+  position: absolute;
+  top: 50px;
+  left: 30%;
+  font-size: 100px;
+  color: #fff;
+}
+#left ul {
+  list-style: none;
+}
+#left ul li {
+  margin: 40px 15px;
+}
+#left ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#left ul hr {
+  margin-left: 0;
+}
+#mid {
+  display: inline-block;
+  width: 500px;
+  margin: 20px;
+  position: absolute;
+}
+#publishPost {
+  position: relative;
+  margin-bottom: 50px;
+}
+#publishPost input {
+  display: block;
+  width: 100%;
+  padding-bottom: 150px;
+  padding-left: 5px;
+  padding-top: 10px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  background-color: rgb(241, 239, 239);
+}
+#publishPost input:focus {
+  outline: none;
+  border: none;
+}
+#publishPost .but {
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+}
+.but button {
+  padding: 10px 30px;
+  margin: 10px 0 10px 300px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(5, 221, 120);
+}
+.post1 {
+  width: 500px;
+  background-color: rgb(241, 239, 239);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+}
+.post1 #img1 {
+  margin: 10px 10px 0 10px;
+  display: inline-block;
+}
+.post1 .p1,
+.post1 .p3,
+.post1 .p4,
+.post1 .p5,
+.post1 .p6,
+.post1 button,
+.post1 .q1 {
+  display: inline;
+}
+.post1 #q1 {
+  color: rgb(5, 221, 120);
+}
+.post1 .p4,
+.post1 .p5,
+.post1 .p6 {
+  padding: 5px;
+}
+.post1 button {
+  margin-left: 240px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(5, 221, 120);
+}
+#img2 {
+  border-radius: 10px;
+}
+.post2 {
+  display: none;
+  width: 500px;
+  background-color: rgb(241, 239, 239);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+}
+.post2 #img1 {
+  margin: 10px 10px 0 10px;
+  display: inline-block;
+}
+.post2 .p1,
+.post2 .p3,
+.post2 .p4,
+.post2 .p5,
+.post2 .p6,
+.post2 button,
+.post2 .q1 {
+  display: inline;
+}
+.post2 #q1 {
+  color: rgb(5, 221, 120);
+}
+.post2 .p4,
+.post2 .p5,
+.post2 .p6 {
+  padding: 5px;
+}
+.post2 button {
+  margin-left: 240px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(5, 221, 120);
+}
+.post2 .p2{
+   white-space: normal;
+}
+#right {
+  width: 300px;
+  margin: 20px;
+  background-color: rgb(241, 239, 239);
+  padding-left: 20px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+#right h1 {
+  margin-bottom: 20px;
+}
+#right .card {
+  background-image: url("https://th.bing.com/th/id/R.32de62a9075bbd81995f48e46d07c351?rik=BYTA7bEar9lrQQ&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+#right .card i {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  background-image: url("./images/WhatsApp\ Image\ 2022-10-14\ at\ 16.36.47.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+}
+#right .card h2, #right .card p{
+  color: #fff;
+}
+@media(max-width:600px)
+{
+  #right {
+    display: none;
+  }
+  #left {
+    display: none;
+  }
+  .head{
+    margin: 0;
+    padding-left:5px;
+  }
+  form {
+    margin: 10px 0px;
+  }
+  #mid{
+    margin-left: 1px;
+    width: 430px ;
+  }
+  #all{
+    margin-left: 0px;
+  }
+  #mid .post2, #mid .post1{
+    width: 420px;
+  }
+  .post1 #img2{
+    width: 100%;
+  }
+}

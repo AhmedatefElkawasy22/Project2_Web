@@ -1,0 +1,170 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    background-color: rgb(218, 220, 221);
+  }
+  #img1 {
+    position: absolute;
+    height: 646px;
+    padding: 0%;
+    margin: 0%;
+    width: 400px;
+    right: 0;
+    top: 0;
+  }
+  .head {
+    margin: 0 30px;
+  }
+  .head i {
+    font-size: 30px;
+    border: 1px dashed rgb(5, 221, 120);
+    color: rgb(5, 221, 120);
+    border-radius: 40px;
+    padding: 5px 10px 5px 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-style: italic;
+  }
+  .head h1 {
+    display: inline;
+    margin-right: 470px;
+  }
+  .head p {
+    display: inline;
+  }
+  .head a {
+    display: inline;
+    color: rgb(5, 221, 120);
+  }
+  .login {
+    position: absolute;
+    left: 230px;
+    top: 45px;
+    width: 500px;
+  }
+  .login h1,
+  .login #p1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #button1,
+  #button2 {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  #button1:hover,
+#button2:hover {
+  background-color:  rgb(5, 221, 120);
+  transform: scale3d(1.1,1.1,1,1);
+}
+  #button1 {
+    margin-left: 130px;
+  }
+  form #input1,
+  form #input2,
+  form #input3 ,
+  form #input4 ,
+  form #input5 {
+    display: block;
+    padding: 10px 0 10px 5px;
+    margin: 20px 0;
+    border: none ;
+    border-radius: 5px;
+    width: 98%;
+  }
+  #check1 {
+    margin: 0;
+    display: none;
+    user-select: none;
+  }
+  .label_check {
+    position: relative;
+    cursor: pointer;
+    margin: 0 10px 40px 0;
+    padding: 5px 25px;
+    border-radius: 20px;
+    background-color: rgb(114, 114, 114);
+    display: inline;
+  }
+  .label_check::before {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    content: " ";
+    background-color: rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+    margin: 0 2px;
+    margin-top: 1px;
+    border-radius: 200px;
+  }
+  #check1:checked + .label_check {
+    background-color: rgb(5, 221, 120);
+  }
+  #check1:checked + .label_check::before {
+    transform: translateX(20px);
+  }
+  .text{
+    display: flex;
+    justify-content: center;
+    margin-left:10px;
+    text-align: left;
+    padding: 0px;
+  }
+  #p3 {
+    display: inline;
+    margin-left: 5px;
+  }
+  #p3 span{
+    font-size: 20px;
+    font-style: bold;
+    color: rgb(5, 221, 120);
+  }
+  #input6 {
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(5, 221, 120);
+  }
+  #p22{
+    display: none;
+  }
+
+
+  @media(max-width:600px)
+{
+    #img1 {
+        display: none;
+    }
+    .head{
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    .head i{
+         display: inline;
+    }
+    .head h1{
+        margin-right: 50px;
+    }
+    .login{
+        position: absolute;
+        left: 0;
+        top: 100px;
+        width: 100%;
+    }
+     #p2{
+        display: none;
+    }
+    #p22{
+        display: block;
+    }
+    .login{
+       top:25px;
+    }
+}
